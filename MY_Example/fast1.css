@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#had{
+    height: 100px;
+    width: 100%;
+}
+#nav{
+    padding: 20px 30px;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+  
+}
+#nav_bar{
+    display: flex;
+   align-items: center;
+    
+}
+#nav_log{
+    padding: 0 20px;
+}
+#nav_log h1{
+    font-size: 30px;
+    font-weight: 800;
+    letter-spacing: -3px;
+}
+#nav_bar p{
+   
+}
+#nav_bar a{
+    margin: 0 20px;
+    padding: 2px;
+    color: black;
+    align-items: center;
+ 
+    text-decoration: none;
+}
+
+#nav_bar a:hover{
+   color: rgb(246, 246, 249);
+   background-color: rgb(9, 95, 10);
+   border: 2px solid rgb(9, 95, 10);
+  
+}
+#nav_login{
+   
+    align-content: center;
+    
+}
+#sing_up{
+    color: white;
+    padding: 6px 10px;
+   
+    background-color: rgb(9, 95, 10); ;
+}
+#log_in{
+    margin-right: 10px;
+    background-color: white;
+    color: black;
+    background: none;
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+#main{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(19, 40, 79);
+    margin: 20px;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+#img1{
+    height: 100%;
+    width: 350px;
+    margin-left: 140px;
+    background-image: url(img1.png);
+
+    background-color: aliceblue;
+}
+#contan{
+    color: #fff;
+    margin: 150px 100px;
+   
+}
+#contan h2{
+    font-size: 40px;
+    font-weight: 900;
+    letter-spacing: -1px;
+    word-spacing: 10px;
+    padding: 20px 0;
+}
+#contan p{
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+#contan button{
+    color: white;
+    padding: 10px 50px;
+   
+    background-color: rgb(9, 95, 10); ;
+}
+#contan a{
+   margin-top: 20px;
+    color: white;
+}
+

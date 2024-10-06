@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: gilroy;
+    
+}
+html,body{
+    height: 100%;
+    width: 100%;
+
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    grid-template-columns:min-content ;
+}
+#nava{
+    height: 100px;
+    width: 100%;
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0% 40px;
+   
+
+}
+#nava h3{
+   font-size: 17px;
+   padding: 0px 10px;
+   font-weight: 500px;
+   border: 1.5px solid#000;
+   border-radius: 50px;
+   
+}
+#nava-fast{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+   
+}
+#nava-fast-ico{
+    border: 1.5px solid#000;
+    border-radius: 50px;
+    padding: 0px 10px;
+
+}
+#nava-thard{
+    font-size: 17px;
+  
+   font-weight: 500px;
+   padding: 5px 10px;
+  
+}
+#nava-thard-b{
+    font-size: 17px;
+    border: 2.5pxs solid#000;
+    border-radius: 50px;
+    padding: 5px 10px;
+}
+#nava-thard-a{
+    font-size: 17px;
+   border: 1.5px solid #000;
+   font-weight: 500px;
+   padding: 5px 10px;
+   border-radius: 50px;
+   background-color: orangered;
+}
+#nava h1{
+    text-transform: uppercase;
+}
+#main>h1{
+    font-size: 180px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    width: 100%;
+
+   
+}
+
+ img{
+    height: 300px;
+    width: 280px;
+    object-fit: cover;
+    object-position: top;
+    justify-content: center;
+    position: absolute ;
+    top: 50%;
+    left: 50%;
+    border-radius: 20px;
+    transform:  translate(-50% -50%);
+   
+    
+}
+#imgr1{
+    transform: translate(-50% ,-50%)rotate(-30deg);
+
+}
+#imgr2{
+    transform: translate(-50% ,-50%)rotate(-20deg);
+
+}
+#imgr3{
+    transform: translate(-50% ,-50%)rotate(-10deg);
+
+}
+#btm-lef{
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    font-size: 17px;
+    font-weight: 400;
+}
+#btm-rig{
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+}
+#btm-inst{padding: 0px 10px;
+    color: #000;
+}
+#btm-fac{padding: 0px 10px;
+    color: #000;
+}

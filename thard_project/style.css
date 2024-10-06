@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+  
+}
+#nav{
+    display: flex;
+    justify-content:space-between ;
+    padding: 35px 60px;
+    width: 100%;
+   
+   
+   
+}
+#nav-part1{
+    display: flex;
+   justify-content: space-between;
+    width: 45%;
+}
+#nav-part2{
+    display: flex;
+    justify-content: space-between;
+    width: 45%;
+}
+#nav h3{
+    font-size: 25px;
+
+    font-weight:600;
+}
+#nav h4{
+    font-size: 25px;
+
+    font-weight:600;
+}
+#nav h2{
+    font-size: 25px;
+    font-weight:600;
+}
+#content{
+    margin-top: 60px;
+    padding: 35px 55px;
+}
+#content h3{
+    font-size: 34px;
+    font-weight: 600px;
+
+}
+#content h1{
+    margin-top: 40px;
+     font-size: 120px;
+    line-height: 100px;
+    font-weight: 450px; 
+    letter-spacing: -5px;
+    word-spacing:12px;
+}
+#case{
+    padding: 40px 50px;
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#case h4{
+    font-size: 26px;
+    font-weight: 500;
+}
+#case h5{
+    font-size: 26px;
+    font-weight: 500;
+}
+#right{
+    display: flex;
+    align-items: center;
+
+    gap: 40px;
+}
+
+#line{
+     height: 2px;
+     width: 160px;
+     background-color: rgb(0, 0, 0);
+    
+}
+#projects{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 60px;
+   gap: 50px;
+
+}
+.elem{
+    width: 50%;
+}
+.elam-img{
+    height: 400px;
+   
+    background-color: rgb(185, 210, 216);
+    width: 100%;
+    border-radius: 30px;
+    background-position:center;
+    background-size: cover;
+}
+#img1{
+    background-image: url("https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRn4yS22-Elby2X4aj1S5UV9WIxGOOMrLodftZylI__oJrWRlBS");
+   border-image-repeat: unset;
+}
+#img2{
+    background-image: url("https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTYNiwU1N-IJBv010dkwVzvc6hxn9PwR-6CKfMDaoo11PUs1hCZ");
+
+}
+.bottom{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 40px 0px;
+}
+.bottom i{
+    padding: 15px 30px;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 50%;
+    font-size: 40px;
+}
+.bottom i:hover{
+    background-color: black;
+    color: white;
+}
+.bottom h2{
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    
+
+}
+.bottom h4{
+    font-size: 15px;
+    color: rgb(97, 93, 93);
+
+
+}
